@@ -1,0 +1,4 @@
+git checkout master index.html 將master最新版的index.html還原回來工作目錄與暫存區
+git reset --hard 與上面功能一樣，但可以一次多個檔案     
+git reset --mixed 將目前最新HEAD更新回來，但是工作目錄不變
+git reset commitID --soft 重設分支，但保留暫存區、工作目錄
